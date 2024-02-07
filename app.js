@@ -1,3 +1,4 @@
+require('dotenv').config()
 const path = require("path");
 
 const express = require("express");
@@ -20,8 +21,7 @@ const User = require("./models/user");
 const errorController = require("./controllers/error");
 const app = express();
 
-const DATABASE_URI =
-  "mongodb+srv://mohamed_7428:Mo5556545@cluster0.nznrjuo.mongodb.net/shop?retryWrites=true&w=majority";
+const DATABASE_URI = process.env.DATABASE_URI;
 
 const store = new MongodbStore({
   uri: DATABASE_URI,
