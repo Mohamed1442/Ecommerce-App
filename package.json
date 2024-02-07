@@ -1,0 +1,40 @@
+{
+  "name": "2-express",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "@types/node": "^20.4.2",
+    "@types/sequelize": "^4.28.15",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^3.1.1",
+    "csurf": "^1.11.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-handlebars": "3.0",
+    "express-session": "^1.17.3",
+    "express-validator": "^7.0.1",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.5.0",
+    "nodemailer": "^6.9.4",
+    "pdfkit": "^0.13.0",
+    "pug": "^3.0.2",
+    "sequelize": "^6.32.1",
+    "stripe": "^12.18.0",
+    "uuid": "^9.0.0"
+  },
+  "description": ""
+}
